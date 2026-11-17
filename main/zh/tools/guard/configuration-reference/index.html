@@ -9,7 +9,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Guard 配置参考 · Mago">
   <meta property="og:description" content="Mago 在 [guard] 下接受的所有选项。">
-  <meta property="og:url" content="https://mago.carthage.software/main/zh/tools&#x2F;guard&#x2F;configuration-reference/">
+  <meta property="og:url" content="https://mago.carthage.software/main/zh/tools/guard/configuration-reference/">
   <meta property="og:image" content="https://mago.carthage.software/main/_assets/img/banner.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -20,23 +20,24 @@
   <meta name="twitter:image" content="https://mago.carthage.software/main/_assets/img/banner.png">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
-  <link rel="icon" type="image/png" sizes="32x32" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/img/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../../main/_assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../../main/_assets/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../../../main/_assets/img/apple-touch-icon.png">
   
-  <link rel="preload" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/fonts/IBMPlexSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/fonts/IBMPlexMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/reset.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/base.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/typography.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/layout.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/components.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/code.css">
+  <link rel="preload" href="../../../../../main/_assets/fonts/IBMPlexSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../../../../main/_assets/fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../../../../main/_assets/fonts/IBMPlexMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../../../../main/_assets/css/reset.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/base.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/typography.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/layout.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/components.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/code.css">
+  
   
   
   <style>:root { --accent: #3c8d58; }</style>
-  <link rel="canonical" href="https://mago.carthage.software/main/zh/tools&#x2F;guard&#x2F;configuration-reference/">
+  <link rel="canonical" href="https://mago.carthage.software/main/zh/tools/guard/configuration-reference/">
   <script>
     (() => {
       try {
@@ -51,8 +52,8 @@
 <body>
   <header class="site-header">
   <div class="header-start">
-    <a class="brand" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/zh/">
-      <img class="brand__mark" src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/img/favicon-32x32.png" alt="" width="22" height="22">
+    <a class="brand" href="../../../../../main/zh/">
+      <img class="brand__mark" src="../../../../../main/_assets/img/favicon-32x32.png" alt="" width="22" height="22">
       <span class="brand__name">Mago</span>
       <span class="brand__divider">/</span>
       <span class="brand__tag">PHP toolchain</span>
@@ -65,15 +66,15 @@
         <circle cx="7" cy="7" r="4.5"/>
         <path d="M10.5 10.5 14 14"/>
       </svg>
-      <span class="search-trigger__hint">按 &#x2F; 搜索</span>
+      <span class="search-trigger__hint">按 / 搜索</span>
     </button>
   </div>
 
   <div class="header-end">
     <nav class="header-nav" aria-label="Primary">
-      <a class="header-link" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/zh/guide/getting-started">指南</a>
-      <a class="header-link" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/zh/faq">常见问题</a>
-      <a class="header-link" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/zh/playground">Playground</a>
+      <a class="header-link" href="../../../../../main/zh/guide/getting-started">指南</a>
+      <a class="header-link" href="../../../../../main/zh/faq">常见问题</a>
+      <a class="header-link" href="../../../../../main/zh/playground">Playground</a>
       <a class="header-link" href="https://github.com/sponsors/azjezz" target="_blank" rel="noopener">赞助</a>
       <a class="header-icon" href="https://github.com/carthage-software/mago" target="_blank" rel="noopener" aria-label="GitHub 仓库" title="GitHub 仓库">
         <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" width="16" height="16">
@@ -91,8 +92,8 @@
   data-version-select
   data-current-version="main"
   data-current-lang="zh"
-  data-logical-path="tools&#x2F;guard&#x2F;configuration-reference"
-  data-path-to-root="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;"
+  data-logical-path="tools/guard/configuration-reference"
+  data-path-to-root="../../../../../"
 >
   <summary>
     <span class="plate__sigil">v</span>
@@ -303,6 +304,33 @@
       
     </details>
     
+    <details class="sidebar-subsection">
+      <summary class="sidebar-subsection__heading">
+        <span class="sidebar-subsection__title">Twig Linter</span>
+        <span class="sidebar-subsection__chev" aria-hidden="true">+</span>
+      </summary>
+
+      
+      <ul class="sidebar-section__items sidebar-subsection__items">
+        
+        <li>
+          <a href="../../../../../main/zh/tools/twig-linter">
+            <span>Twig Linter</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/zh/tools/twig-linter/rules">
+            <span>规则</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+
+      
+    </details>
+    
   </details>
   
   <details class="sidebar-section" open>
@@ -487,6 +515,27 @@
       
     </details>
     
+    <details class="sidebar-subsection">
+      <summary class="sidebar-subsection__heading">
+        <span class="sidebar-subsection__title">Twig Formatter</span>
+        <span class="sidebar-subsection__chev" aria-hidden="true">+</span>
+      </summary>
+
+      
+      <ul class="sidebar-section__items sidebar-subsection__items">
+        
+        <li>
+          <a href="../../../../../main/zh/tools/formatter/twig">
+            <span>Twig 格式化器</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+
+      
+    </details>
+    
   </details>
   
   <details class="sidebar-section">
@@ -532,6 +581,12 @@
       <li>
         <a href="../../../../../main/zh/recipes/docker">
           <span>Docker 实用方案</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../../../../main/zh/recipes/drupal">
+          <span>Drupal 实用方案</span>
         </a>
       </li>
       
@@ -617,6 +672,7 @@ layering = [
     "CarthageSoftware\\UI",
     "CarthageSoftware\\Infrastructure",
 ]
+layering-reason = "Outer layers may depend on inner layers, never the reverse."
 
 [guard.perimeter.layers]
 core = ["@native", "Psl\\**"]
@@ -626,6 +682,7 @@ framework = ["Symfony\\**", "Doctrine\\**"]
 [[guard.perimeter.rules]]
 namespace = "CarthageSoftware\\Domain"
 permit = ["@layer:core"]
+reason = "Domain code may only use PHP built-ins and Psl."
 
 [[guard.perimeter.rules]]
 namespace = "CarthageSoftware\\Application"
@@ -641,6 +698,8 @@ permit = ["@all"]
 </code></pre>
 <h3 id="layering"><code>layering</code></h3>
 <p>一个有序的命名空间列表,从最独立的核心,依次向外延展到最外层。每一层只能依赖在其之前定义的层。指向更外层的依赖会触发违规。</p>
+<h3 id="layering-reason"><code>layering-reason</code></h3>
+<p>可选的人类可读说明,会在报告分层违规时显示。</p>
 <h3 id="layer-aliases">层别名</h3>
 <p><code>[guard.perimeter.layers]</code> 定义可重用的命名空间和路径分组,在规则中通过 <code>@layer:&lt;name&gt;</code> 引用。</p>
 <h3 id="rules">规则</h3>
@@ -648,6 +707,7 @@ permit = ["@all"]
 <ul>
 <li><code>namespace</code>:此规则所适用的命名空间。可以是以 <code>\</code> 结尾的命名空间,或特殊关键字 <code>@global</code>(表示全局命名空间)。</li>
 <li><code>permit</code>:被允许的依赖。可以是字符串列表或带详细字段的对象列表。</li>
+<li><code>reason</code>:可选的人类可读说明,会显示在错误消息中。</li>
 </ul>
 <h4 id="permit-values"><code>permit</code> 的取值</h4>
 <p><code>permit</code> 接受路径。路径可以是关键字、命名空间、符号或 glob 模式。</p>
@@ -676,6 +736,7 @@ permit = [{ path = "@all", kinds = ["class-like"] }]
 dependency = "App\\Http\\Controllers\\Controller"
 allow-from = ["App\\Http\\Controllers\\"]
 kinds = ["class-like"]
+reason = "Controllers must stay in the HTTP layer."
 
 [[guard.perimeter.restrictions]]
 dependency = "Illuminate\\Foundation\\Bus\\Dispatchable"
@@ -686,6 +747,7 @@ deny-from = ["App\\"]
 <tr><td style="text-align: left"><code>allow-from</code></td><td style="text-align: left">可选的来源命名空间模式。列表非空时,匹配的依赖只能从这些命名空间使用。</td></tr>
 <tr><td style="text-align: left"><code>deny-from</code></td><td style="text-align: left">可选的来源命名空间模式。匹配的依赖禁止从这些命名空间使用。</td></tr>
 <tr><td style="text-align: left"><code>kinds</code></td><td style="text-align: left">可选的依赖种类过滤器。取值为 <code>class-like</code>、<code>function</code>、<code>constant</code>、<code>attribute</code>。空列表表示适用于所有种类。</td></tr>
+<tr><td style="text-align: left"><code>reason</code></td><td style="text-align: left">可选的人类可读说明,会显示在错误消息中。</td></tr>
 </tbody></table>
 <p>限制会在普通 <code>permit</code> 规则和 layering 之前求值,因此权限不能覆盖限制。如果 <code>allow-from</code> 和 <code>deny-from</code> 同时匹配,以 <code>deny-from</code> 为准。匹配 <code>allow-from</code> 只表示满足该限制;如果配置了普通边界规则或 layering,它们仍然必须允许该依赖。仅包含限制的配置会允许无关依赖;限制不会建立隐式允许列表。</p>
 <h2 id="structural-guard">结构 guard</h2>
@@ -781,6 +843,10 @@ must-implement = "@nothing"
     </li>
     
     <li class="doc-toc__item doc-toc__item--lvl3">
+      <a class="doc-toc__link" href="#layering-reason">layering-reason</a>
+    </li>
+    
+    <li class="doc-toc__item doc-toc__item--lvl3">
       <a class="doc-toc__link" href="#layer-aliases">层别名</a>
     </li>
     
@@ -829,11 +895,12 @@ must-implement = "@nothing"
 
   
 
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/theme.js" defer></script>
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/search.js" defer></script>
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/anchors.js" defer></script>
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/versions.js" defer></script>
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/highlight.js" defer></script>
+  <script src="../../../../../main/_assets/js/theme.js" defer></script>
+  <script src="../../../../../main/_assets/js/search.js" defer></script>
+  <script src="../../../../../main/_assets/js/anchors.js" defer></script>
+  <script src="../../../../../main/_assets/js/versions.js" defer></script>
+  <script src="../../../../../main/_assets/js/highlight.js" defer></script>
+  
   
   
 </body>

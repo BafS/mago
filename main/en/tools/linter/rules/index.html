@@ -9,7 +9,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Rules · Mago">
   <meta property="og:description" content="The full reference of every linter rule, sorted by severity. Click any rule to expand its description, examples, and configuration.">
-  <meta property="og:url" content="https://mago.carthage.software/main/en/tools&#x2F;linter&#x2F;rules/">
+  <meta property="og:url" content="https://mago.carthage.software/main/en/tools/linter/rules/">
   <meta property="og:image" content="https://mago.carthage.software/main/_assets/img/banner.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -20,23 +20,24 @@
   <meta name="twitter:image" content="https://mago.carthage.software/main/_assets/img/banner.png">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)">
-  <link rel="icon" type="image/png" sizes="32x32" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/img/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../../../../main/_assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../../../../main/_assets/img/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../../../../main/_assets/img/apple-touch-icon.png">
   
-  <link rel="preload" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/fonts/IBMPlexSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="preload" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/fonts/IBMPlexMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/reset.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/base.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/typography.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/layout.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/components.css">
-  <link rel="stylesheet" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/css/code.css">
+  <link rel="preload" href="../../../../../main/_assets/fonts/IBMPlexSerif-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../../../../main/_assets/fonts/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../../../../main/_assets/fonts/IBMPlexMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../../../../main/_assets/css/reset.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/base.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/typography.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/layout.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/components.css">
+  <link rel="stylesheet" href="../../../../../main/_assets/css/code.css">
+  
   
   
   <style>:root { --accent: #3c8d58; }</style>
-  <link rel="canonical" href="https://mago.carthage.software/main/en/tools&#x2F;linter&#x2F;rules/">
+  <link rel="canonical" href="https://mago.carthage.software/main/en/tools/linter/rules/">
   <script>
     (() => {
       try {
@@ -51,8 +52,8 @@
 <body>
   <header class="site-header">
   <div class="header-start">
-    <a class="brand" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/en/">
-      <img class="brand__mark" src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/img/favicon-32x32.png" alt="" width="22" height="22">
+    <a class="brand" href="../../../../../main/en/">
+      <img class="brand__mark" src="../../../../../main/_assets/img/favicon-32x32.png" alt="" width="22" height="22">
       <span class="brand__name">Mago</span>
       <span class="brand__divider">/</span>
       <span class="brand__tag">PHP toolchain</span>
@@ -65,15 +66,15 @@
         <circle cx="7" cy="7" r="4.5"/>
         <path d="M10.5 10.5 14 14"/>
       </svg>
-      <span class="search-trigger__hint">Press &#x2F; to search</span>
+      <span class="search-trigger__hint">Press / to search</span>
     </button>
   </div>
 
   <div class="header-end">
     <nav class="header-nav" aria-label="Primary">
-      <a class="header-link" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/en/guide/getting-started">Guide</a>
-      <a class="header-link" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/en/faq">FAQ</a>
-      <a class="header-link" href="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/en/playground">Playground</a>
+      <a class="header-link" href="../../../../../main/en/guide/getting-started">Guide</a>
+      <a class="header-link" href="../../../../../main/en/faq">FAQ</a>
+      <a class="header-link" href="../../../../../main/en/playground">Playground</a>
       <a class="header-link" href="https://github.com/sponsors/azjezz" target="_blank" rel="noopener">Sponsor</a>
       <a class="header-icon" href="https://github.com/carthage-software/mago" target="_blank" rel="noopener" aria-label="GitHub repository" title="GitHub repository">
         <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" width="16" height="16">
@@ -91,8 +92,8 @@
   data-version-select
   data-current-version="main"
   data-current-lang="en"
-  data-logical-path="tools&#x2F;linter&#x2F;rules"
-  data-path-to-root="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;"
+  data-logical-path="tools/linter/rules"
+  data-path-to-root="../../../../../"
 >
   <summary>
     <span class="plate__sigil">v</span>
@@ -172,7 +173,7 @@
       
       <li>
         <a href="../../../../../main/en/guide/getting-started">
-          <span>Getting Started</span>
+          <span>Getting started</span>
         </a>
       </li>
       
@@ -458,11 +459,300 @@
       
     </details>
     
+    <details class="sidebar-subsection">
+      <summary class="sidebar-subsection__heading">
+        <span class="sidebar-subsection__title">Twig Formatter</span>
+        <span class="sidebar-subsection__chev" aria-hidden="true">+</span>
+      </summary>
+
+      
+      <ul class="sidebar-section__items sidebar-subsection__items">
+        
+        <li>
+          <a href="../../../../../main/en/tools/formatter/twig">
+            <span>Twig formatter</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+
+      
+    </details>
+    
+    <details class="sidebar-subsection">
+      <summary class="sidebar-subsection__heading">
+        <span class="sidebar-subsection__title">Twig Linter</span>
+        <span class="sidebar-subsection__chev" aria-hidden="true">+</span>
+      </summary>
+
+      
+      <ul class="sidebar-section__items sidebar-subsection__items">
+        
+        <li>
+          <a href="../../../../../main/en/tools/twig-linter">
+            <span>Twig linter</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/tools/twig-linter/rules">
+            <span>Rules</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+
+      
+    </details>
+    
   </details>
   
   <details class="sidebar-section">
     <summary class="sidebar-section__heading">
       <span class="sidebar-section__index">§ 04</span>
+      <span class="sidebar-section__title">Extensions</span>
+      <span class="sidebar-section__chev" aria-hidden="true">+</span>
+    </summary>
+
+    
+    <ul class="sidebar-section__items">
+      
+      <li>
+        <a href="../../../../../main/en/extensions/overview">
+          <span>Extensions</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../../../../main/en/extensions/getting-started">
+          <span>Getting started</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../../../../main/en/extensions/configuration">
+          <span>Configuring extension hosts</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="../../../../../main/en/extensions/architecture">
+          <span>Architecture and execution model</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+
+    
+    <details class="sidebar-subsection">
+      <summary class="sidebar-subsection__heading">
+        <span class="sidebar-subsection__title">PHP SDK</span>
+        <span class="sidebar-subsection__chev" aria-hidden="true">+</span>
+      </summary>
+
+      
+      <ul class="sidebar-section__items sidebar-subsection__items">
+        
+        <li>
+          <a href="../../../../../main/en/extensions/sdk/extensions-and-workers">
+            <span>Extensions and workers</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/sdk/syntax-and-source">
+            <span>Syntax nodes and source files</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/sdk/reporting">
+            <span>Reporting issues and suggested edits</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/sdk/worker-reduction">
+            <span>Worker state and reduction</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+
+      
+    </details>
+    
+    <details class="sidebar-subsection">
+      <summary class="sidebar-subsection__heading">
+        <span class="sidebar-subsection__title">Linter</span>
+        <span class="sidebar-subsection__chev" aria-hidden="true">+</span>
+      </summary>
+
+      
+      <ul class="sidebar-section__items sidebar-subsection__items">
+        
+        <li>
+          <a href="../../../../../main/en/extensions/linter/overview">
+            <span>Linter extensions</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/linter/rules">
+            <span>Writing linter rules</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+
+      
+    </details>
+    
+    <details class="sidebar-subsection">
+      <summary class="sidebar-subsection__heading">
+        <span class="sidebar-subsection__title">Analyzer</span>
+        <span class="sidebar-subsection__chev" aria-hidden="true">+</span>
+      </summary>
+
+      
+      <ul class="sidebar-section__items sidebar-subsection__items">
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/overview">
+            <span>Analyzer plugins</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/lifecycle-hooks">
+            <span>Lifecycle hooks</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/return-types-and-callable-signatures">
+            <span>Return types and callable signatures</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/throw-type-providers">
+            <span>Throw type providers</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/assertion-providers">
+            <span>Assertion providers</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/properties-and-initialization">
+            <span>Properties and initialization</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/targeted-analysis-hooks">
+            <span>Targeted analysis hooks</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/codebase-metadata">
+            <span>Codebase metadata</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/types-and-comparisons">
+            <span>Types and comparisons</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/analysis-results-and-references">
+            <span>Analysis results and references</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/analyzer/entry-points-and-issue-filtering">
+            <span>Entry points and issue filtering</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+
+      
+    </details>
+    
+    <details class="sidebar-subsection">
+      <summary class="sidebar-subsection__heading">
+        <span class="sidebar-subsection__title">Development</span>
+        <span class="sidebar-subsection__chev" aria-hidden="true">+</span>
+      </summary>
+
+      
+      <ul class="sidebar-section__items sidebar-subsection__items">
+        
+        <li>
+          <a href="../../../../../main/en/extensions/development/performance">
+            <span>Performance</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/development/testing-and-debugging">
+            <span>Testing and debugging</span>
+          </a>
+        </li>
+        
+        <li>
+          <a href="../../../../../main/en/extensions/development/packaging-and-compatibility">
+            <span>Packaging and compatibility</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+
+      
+    </details>
+    
+    <details class="sidebar-subsection">
+      <summary class="sidebar-subsection__heading">
+        <span class="sidebar-subsection__title">Reference</span>
+        <span class="sidebar-subsection__chev" aria-hidden="true">+</span>
+      </summary>
+
+      
+      <ul class="sidebar-section__items sidebar-subsection__items">
+        
+        <li>
+          <a href="../../../../../main/en/extensions/reference/sdk-index">
+            <span>PHP SDK index</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+
+      
+    </details>
+    
+  </details>
+  
+  <details class="sidebar-section">
+    <summary class="sidebar-section__heading">
+      <span class="sidebar-section__index">§ 05</span>
       <span class="sidebar-section__title">Recipes</span>
       <span class="sidebar-section__chev" aria-hidden="true">+</span>
     </summary>
@@ -506,6 +796,12 @@
         </a>
       </li>
       
+      <li>
+        <a href="../../../../../main/en/recipes/drupal">
+          <span>Drupal recipe</span>
+        </a>
+      </li>
+      
     </ul>
     
 
@@ -514,7 +810,7 @@
   
   <details class="sidebar-section">
     <summary class="sidebar-section__heading">
-      <span class="sidebar-section__index">§ 05</span>
+      <span class="sidebar-section__index">§ 06</span>
       <span class="sidebar-section__title">Reference</span>
       <span class="sidebar-section__chev" aria-hidden="true">+</span>
     </summary>
@@ -552,8 +848,8 @@
 
   <main id="content" class="doc-content">
     <article class="doc-page">
-      <p>Mago's linter ships 189 rules across 9 categories. Click any rule to expand its description, requirements, default configuration, and examples.</p>
-<div class="rule-index" role="navigation" aria-label="Rule categories"><a class="rule-index__item" href="#clarity"><span class="rule-index__name">Clarity</span><span class="rule-index__count">22 rules</span><span class="rule-index__blurb">Rules that make intent explicit and reduce reader effort. They flag patterns that are technically valid but obscure what the code is doing.</span></a><a class="rule-index__item" href="#bestpractices"><span class="rule-index__name">Best practices</span><span class="rule-index__count">47 rules</span><span class="rule-index__blurb">Idiomatic PHP patterns and widely-accepted conventions. These rules nudge code toward the way modern PHP is written by people who've shipped a lot of it.</span></a><a class="rule-index__item" href="#consistency"><span class="rule-index__name">Consistency</span><span class="rule-index__count">27 rules</span><span class="rule-index__blurb">Stylistic uniformity across a codebase. Pick one way to do a thing, these rules help everyone stick to it.</span></a><a class="rule-index__item" href="#deprecation"><span class="rule-index__name">Deprecation</span><span class="rule-index__count">7 rules</span><span class="rule-index__blurb">PHP features and APIs that have been deprecated upstream and will eventually be removed. Migrate before they break.</span></a><a class="rule-index__item" href="#maintainability"><span class="rule-index__name">Maintainability</span><span class="rule-index__count">11 rules</span><span class="rule-index__blurb">Code that is hard to keep alive over time, too complex, too tangled, too fragile. These rules surface the cost early.</span></a><a class="rule-index__item" href="#redundancy"><span class="rule-index__name">Redundancy</span><span class="rule-index__count">30 rules</span><span class="rule-index__blurb">Dead code, unused values, and constructs that have no observable effect. Trimming them keeps the codebase honest.</span></a><a class="rule-index__item" href="#security"><span class="rule-index__name">Security</span><span class="rule-index__count">15 rules</span><span class="rule-index__blurb">Rules that flag security vulnerabilities, injection vectors, unsafe deserialisation, untrusted input flowing into dangerous sinks.</span></a><a class="rule-index__item" href="#safety"><span class="rule-index__name">Safety</span><span class="rule-index__count">9 rules</span><span class="rule-index__blurb">Patterns that compile but blow up at runtime. These rules catch the foot-guns before users do.</span></a><a class="rule-index__item" href="#correctness"><span class="rule-index__name">Correctness</span><span class="rule-index__count">21 rules</span><span class="rule-index__blurb">Bugs and logic errors. Rules in this category catch code that does something the author probably did not intend.</span></a></div>
+      <p>Mago's linter ships 194 rules across 9 categories. Click any rule to expand its description, requirements, default configuration, and examples.</p>
+<div class="rule-index" role="navigation" aria-label="Rule categories"><a class="rule-index__item" href="#clarity"><span class="rule-index__name">Clarity</span><span class="rule-index__count">22 rules</span><span class="rule-index__blurb">Rules that make intent explicit and reduce reader effort. They flag patterns that are technically valid but obscure what the code is doing.</span></a><a class="rule-index__item" href="#bestpractices"><span class="rule-index__name">Best practices</span><span class="rule-index__count">49 rules</span><span class="rule-index__blurb">Idiomatic PHP patterns and widely-accepted conventions. These rules nudge code toward the way modern PHP is written by people who've shipped a lot of it.</span></a><a class="rule-index__item" href="#consistency"><span class="rule-index__name">Consistency</span><span class="rule-index__count">27 rules</span><span class="rule-index__blurb">Stylistic uniformity across a codebase. Pick one way to do a thing, these rules help everyone stick to it.</span></a><a class="rule-index__item" href="#deprecation"><span class="rule-index__name">Deprecation</span><span class="rule-index__count">7 rules</span><span class="rule-index__blurb">PHP features and APIs that have been deprecated upstream and will eventually be removed. Migrate before they break.</span></a><a class="rule-index__item" href="#maintainability"><span class="rule-index__name">Maintainability</span><span class="rule-index__count">11 rules</span><span class="rule-index__blurb">Code that is hard to keep alive over time, too complex, too tangled, too fragile. These rules surface the cost early.</span></a><a class="rule-index__item" href="#redundancy"><span class="rule-index__name">Redundancy</span><span class="rule-index__count">32 rules</span><span class="rule-index__blurb">Dead code, unused values, and constructs that have no observable effect. Trimming them keeps the codebase honest.</span></a><a class="rule-index__item" href="#security"><span class="rule-index__name">Security</span><span class="rule-index__count">15 rules</span><span class="rule-index__blurb">Rules that flag security vulnerabilities, injection vectors, unsafe deserialisation, untrusted input flowing into dangerous sinks.</span></a><a class="rule-index__item" href="#safety"><span class="rule-index__name">Safety</span><span class="rule-index__count">9 rules</span><span class="rule-index__blurb">Patterns that compile but blow up at runtime. These rules catch the foot-guns before users do.</span></a><a class="rule-index__item" href="#correctness"><span class="rule-index__name">Correctness</span><span class="rule-index__count">22 rules</span><span class="rule-index__blurb">Bugs and logic errors. Rules in this category catch code that does something the author probably did not intend.</span></a></div>
 <h2 id="integration-specific-rules">Integration-specific rules</h2>
 <p>Some rules only fire when Mago detects a particular library or framework. Each rule is linked to its full description in the section above.</p>
 <h3 id="integration-cakephp">CakePHP</h3>
@@ -2982,6 +3278,38 @@ function process($condition) {
 </tbody></table>
 </div>
 </details>
+<details class="rule" name="rule" id="prefer-null-coalescing-assignment">
+<summary><code class="rule__code">prefer-null-coalescing-assignment</code><a class="rule__anchor" href="#prefer-null-coalescing-assignment" aria-label="Permalink to prefer-null-coalescing-assignment">¶</a><span class="rule__level rule__level--help">help</span></summary>
+<div class="rule__body">
+<p>Suggests the null coalescing assignment operator (<code>??=</code>) when the right operand
+of <code>??</code> assigns to the same variable or property as its left operand.</p>
+<p><code>$value ?? ($value = $default)</code> and <code>$value ??= $default</code> do the same work, but
+the latter names the target once.</p>
+<blockquote class="rule-requirement">This rule requires PHP version <code>7.4.0</code> or newer.</blockquote>
+<hr class="rule__separator">
+<div class="rule-examples">
+<div class="rule-example rule-example--bad">
+<div class="rule-example__label">Avoid</div>
+<pre><code class="language-php">&lt;?php
+
+return $this-&gt;ids ?? ($this-&gt;ids = $this-&gt;readIds());
+</code></pre>
+</div>
+<div class="rule-example rule-example--good">
+<div class="rule-example__label">Prefer</div>
+<pre><code class="language-php">&lt;?php
+
+return $this-&gt;ids ??= $this-&gt;readIds();
+</code></pre>
+</div>
+</div>
+<hr class="rule__separator">
+<table><thead><tr><th style="text-align: left">Option</th><th style="text-align: left">Type</th><th style="text-align: left">Default</th></tr></thead><tbody>
+<tr><td style="text-align: left"><code>enabled</code></td><td style="text-align: left"><code>boolean</code></td><td style="text-align: left"><code>true</code></td></tr>
+<tr><td style="text-align: left"><code>level</code></td><td style="text-align: left"><code>string</code></td><td style="text-align: left"><code>"help"</code></td></tr>
+</tbody></table>
+</div>
+</details>
 <details class="rule" name="rule" id="prefer-pre-increment">
 <summary><code class="rule__code">prefer-pre-increment</code><a class="rule__anchor" href="#prefer-pre-increment" aria-label="Permalink to prefer-pre-increment">¶</a><span class="rule__level rule__level--help">help</span></summary>
 <div class="rule__body">
@@ -3006,6 +3334,66 @@ $count--;
 
 ++$i;
 --$count;
+</code></pre>
+</div>
+</div>
+<hr class="rule__separator">
+<table><thead><tr><th style="text-align: left">Option</th><th style="text-align: left">Type</th><th style="text-align: left">Default</th></tr></thead><tbody>
+<tr><td style="text-align: left"><code>enabled</code></td><td style="text-align: left"><code>boolean</code></td><td style="text-align: left"><code>false</code></td></tr>
+<tr><td style="text-align: left"><code>level</code></td><td style="text-align: left"><code>string</code></td><td style="text-align: left"><code>"help"</code></td></tr>
+</tbody></table>
+</div>
+</details>
+<details class="rule" name="rule" id="prefer-self">
+<summary><code class="rule__code">prefer-self</code><a class="rule__anchor" href="#prefer-self" aria-label="Permalink to prefer-self">¶</a><span class="rule__level rule__level--help">help</span></summary>
+<div class="rule__body">
+<p>Suggests using <code>self</code> when a class refers to itself by name.</p>
+<p>Using <code>self</code> keeps the code working when the class is renamed, and makes it
+obvious that the reference points at the enclosing class.</p>
+<p>A static call through the class name does not forward late static binding, while
+a call through <code>self</code> does. In a class that can be extended, replacing the name in
+a static method call or first-class callable can therefore change what <code>static</code>
+resolves to in the called method, so those fixes are marked as potentially unsafe.
+The same applies inside closures, which can be rebound to another class scope.</p>
+<p>References inside traits, anonymous classes, and attribute arguments are ignored.</p>
+<hr class="rule__separator">
+<div class="rule-examples">
+<div class="rule-example rule-example--bad">
+<div class="rule-example__label">Avoid</div>
+<pre><code class="language-php">&lt;?php
+
+final class Box
+{
+    private const DEFAULT_SIZE = 10;
+
+    public function __construct(
+        public int $size,
+    ) {}
+
+    public static function create(): self
+    {
+        return new Box(Box::DEFAULT_SIZE);
+    }
+}
+</code></pre>
+</div>
+<div class="rule-example rule-example--good">
+<div class="rule-example__label">Prefer</div>
+<pre><code class="language-php">&lt;?php
+
+final class Box
+{
+    private const DEFAULT_SIZE = 10;
+
+    public function __construct(
+        public int $size,
+    ) {}
+
+    public static function create(): self
+    {
+        return new self(self::DEFAULT_SIZE);
+    }
+}
 </code></pre>
 </div>
 </div>
@@ -3941,7 +4329,8 @@ interface MyInterface {}
 <p>Enforces that PHP keywords (like <code>if</code>, <code>else</code>, <code>return</code>, <code>function</code>, etc.) be written
 in lowercase. Using uppercase or mixed case is discouraged for consistency and readability.</p>
 <p>When the <code>drupal</code> integration is enabled, <code>TRUE</code>, <code>FALSE</code>, and <code>NULL</code> are exempted to
-match Drupal's coding standards (and the <code>drupal</code> formatter preset).</p>
+match Drupal's coding standards (and the <code>drupal</code> formatter preset). Drupal projects
+should use the official <code>drupal/mago</code> extension instead, which sets this rule up for them.</p>
 <hr class="rule__separator">
 <div class="rule-examples">
 <div class="rule-example rule-example--bad">
@@ -4656,7 +5045,7 @@ function hasRequiredFields($user) {
 <table><thead><tr><th style="text-align: left">Option</th><th style="text-align: left">Type</th><th style="text-align: left">Default</th></tr></thead><tbody>
 <tr><td style="text-align: left"><code>enabled</code></td><td style="text-align: left"><code>boolean</code></td><td style="text-align: left"><code>true</code></td></tr>
 <tr><td style="text-align: left"><code>level</code></td><td style="text-align: left"><code>string</code></td><td style="text-align: left"><code>"error"</code></td></tr>
-<tr><td style="text-align: left"><code>method-threshold</code></td><td style="text-align: left"><code>null</code></td><td style="text-align: left"><code>null</code></td></tr>
+<tr><td style="text-align: left"><code>method-threshold</code></td><td style="text-align: left"><code>number or null</code></td><td style="text-align: left"><code>null</code></td></tr>
 <tr><td style="text-align: left"><code>threshold</code></td><td style="text-align: left"><code>number</code></td><td style="text-align: left"><code>15</code></td></tr>
 </tbody></table>
 </div>
@@ -4689,7 +5078,7 @@ function processOrder($orderId, $userId, $total, $status, $date) {
 </div>
 <hr class="rule__separator">
 <table><thead><tr><th style="text-align: left">Option</th><th style="text-align: left">Type</th><th style="text-align: left">Default</th></tr></thead><tbody>
-<tr><td style="text-align: left"><code>constructor-threshold</code></td><td style="text-align: left"><code>null</code></td><td style="text-align: left"><code>null</code></td></tr>
+<tr><td style="text-align: left"><code>constructor-threshold</code></td><td style="text-align: left"><code>number or null</code></td><td style="text-align: left"><code>null</code></td></tr>
 <tr><td style="text-align: left"><code>enabled</code></td><td style="text-align: left"><code>boolean</code></td><td style="text-align: left"><code>true</code></td></tr>
 <tr><td style="text-align: left"><code>level</code></td><td style="text-align: left"><code>string</code></td><td style="text-align: left"><code>"error"</code></td></tr>
 <tr><td style="text-align: left"><code>threshold</code></td><td style="text-align: left"><code>number</code></td><td style="text-align: left"><code>5</code></td></tr>
@@ -5021,7 +5410,7 @@ if ($condition) {
 <hr class="rule__separator">
 <table><thead><tr><th style="text-align: left">Option</th><th style="text-align: left">Type</th><th style="text-align: left">Default</th></tr></thead><tbody>
 <tr><td style="text-align: left"><code>enabled</code></td><td style="text-align: left"><code>boolean</code></td><td style="text-align: left"><code>true</code></td></tr>
-<tr><td style="text-align: left"><code>function-like-threshold</code></td><td style="text-align: left"><code>null</code></td><td style="text-align: left"><code>null</code></td></tr>
+<tr><td style="text-align: left"><code>function-like-threshold</code></td><td style="text-align: left"><code>number or null</code></td><td style="text-align: left"><code>null</code></td></tr>
 <tr><td style="text-align: left"><code>level</code></td><td style="text-align: left"><code>string</code></td><td style="text-align: left"><code>"warning"</code></td></tr>
 <tr><td style="text-align: left"><code>threshold</code></td><td style="text-align: left"><code>number</code></td><td style="text-align: left"><code>7</code></td></tr>
 </tbody></table>
@@ -5597,6 +5986,8 @@ to keep the codebase clean and maintainable.</p>
 <div class="rule__body">
 <p>Detects loops (<code>for</code>, <code>foreach</code>, <code>while</code>, <code>do-while</code>) that have an empty body. An empty
 loop body does not perform any actions and is likely a mistake or redundant code.</p>
+<p>The fix is marked as unsafe because removing the loop also removes the evaluation of its
+header (function calls, assignments, increments), which can change behavior.</p>
 <hr class="rule__separator">
 <div class="rule-examples">
 <div class="rule-example rule-example--bad">
@@ -6403,6 +6794,107 @@ function gen(): Generator {
 </tbody></table>
 </div>
 </details>
+<details class="rule" name="rule" id="no-unused-return-value">
+<summary><code class="rule__code">no-unused-return-value</code><a class="rule__anchor" href="#no-unused-return-value" aria-label="Permalink to no-unused-return-value">¶</a><span class="rule__level rule__level--help">help</span></summary>
+<div class="rule__body">
+<p>Detects private methods whose return value is thrown away at every call site.</p>
+<p>Only the class itself can call a private method, so when each call is a bare
+statement, nothing reads the value the method returns. Declaring the method
+<code>void</code> makes that clear.</p>
+<p>The rule stays silent when the class uses a trait, calls methods by a dynamic
+name, takes the method as a callable, or mentions its name in a string.</p>
+<hr class="rule__separator">
+<div class="rule-examples">
+<div class="rule-example rule-example--bad">
+<div class="rule-example__label">Avoid</div>
+<pre><code class="language-php">&lt;?php
+
+final class Counter
+{
+    private int $count = 0;
+
+    public function increment(): void
+    {
+        $this-&gt;advance();
+    }
+
+    private function advance(): int
+    {
+        return ++$this-&gt;count;
+    }
+}
+</code></pre>
+</div>
+<div class="rule-example rule-example--good">
+<div class="rule-example__label">Prefer</div>
+<pre><code class="language-php">&lt;?php
+
+final class Counter
+{
+    private int $count = 0;
+
+    public function increment(): void
+    {
+        $this-&gt;advance();
+    }
+
+    private function advance(): void
+    {
+        ++$this-&gt;count;
+    }
+}
+</code></pre>
+</div>
+</div>
+<hr class="rule__separator">
+<table><thead><tr><th style="text-align: left">Option</th><th style="text-align: left">Type</th><th style="text-align: left">Default</th></tr></thead><tbody>
+<tr><td style="text-align: left"><code>enabled</code></td><td style="text-align: left"><code>boolean</code></td><td style="text-align: left"><code>true</code></td></tr>
+<tr><td style="text-align: left"><code>level</code></td><td style="text-align: left"><code>string</code></td><td style="text-align: left"><code>"help"</code></td></tr>
+</tbody></table>
+</div>
+</details>
+<details class="rule" name="rule" id="redundant-static">
+<summary><code class="rule__code">redundant-static</code><a class="rule__anchor" href="#redundant-static" aria-label="Permalink to redundant-static">¶</a><span class="rule__level rule__level--help">help</span></summary>
+<div class="rule__body">
+<p>Detects uses of <code>static</code> for late-static binding inside final classes.</p>
+<p>A final class cannot be extended, so <code>static</code> and <code>self</code> resolve to the same class.
+Using <code>self</code> states that intent directly and avoids unnecessary late-static binding.</p>
+<hr class="rule__separator">
+<div class="rule-examples">
+<div class="rule-example rule-example--bad">
+<div class="rule-example__label">Avoid</div>
+<pre><code class="language-php">&lt;?php
+
+final class User
+{
+    public static function create(): static
+    {
+        return new static();
+    }
+}
+</code></pre>
+</div>
+<div class="rule-example rule-example--good">
+<div class="rule-example__label">Prefer</div>
+<pre><code class="language-php">&lt;?php
+
+final class User
+{
+    public static function create(): self
+    {
+        return new self();
+    }
+}
+</code></pre>
+</div>
+</div>
+<hr class="rule__separator">
+<table><thead><tr><th style="text-align: left">Option</th><th style="text-align: left">Type</th><th style="text-align: left">Default</th></tr></thead><tbody>
+<tr><td style="text-align: left"><code>enabled</code></td><td style="text-align: left"><code>boolean</code></td><td style="text-align: left"><code>false</code></td></tr>
+<tr><td style="text-align: left"><code>level</code></td><td style="text-align: left"><code>string</code></td><td style="text-align: left"><code>"help"</code></td></tr>
+</tbody></table>
+</div>
+</details>
 </div>
 <h2 id="security">Security</h2>
 <p>Rules that flag security vulnerabilities, injection vectors, unsafe deserialisation, untrusted input flowing into dangerous sinks.</p>
@@ -6453,6 +6945,8 @@ register_activation_hook(__FILE__, 'my_plugin_activate');
 <p>Detects insecure comparison of passwords or tokens using <code>==</code>, <code>!=</code>, <code>===</code>, or <code>!==</code>.</p>
 <p>These operators are vulnerable to timing attacks, which can expose sensitive information.
 Instead, use <code>hash_equals</code> for comparing strings or <code>password_verify</code> for validating hashes.</p>
+<p>Sensitive data is identified by names, such as variables, array keys, and properties.
+String literal values such as <code>'refresh_token'</code> do not by themselves indicate sensitive data.</p>
 <hr class="rule__separator">
 <div class="rule-examples">
 <div class="rule-example rule-example--bad">
@@ -7704,6 +8198,39 @@ try {
 </tbody></table>
 </div>
 </details>
+<details class="rule" name="rule" id="no-legacy-constructor">
+<summary><code class="rule__code">no-legacy-constructor</code><a class="rule__anchor" href="#no-legacy-constructor" aria-label="Permalink to no-legacy-constructor">¶</a><span class="rule__level rule__level--warning">warning</span></summary>
+<div class="rule__body">
+<p>Detects class-named methods that are no longer invoked as constructors in PHP 8 and later.</p>
+<blockquote class="rule-requirement">This rule requires PHP version <code>8.0.0</code> or newer.</blockquote>
+<hr class="rule__separator">
+<div class="rule-examples">
+<div class="rule-example rule-example--bad">
+<div class="rule-example__label">Avoid</div>
+<pre><code class="language-php">&lt;?php
+
+class LegacyItem {
+    public function LegacyItem() {}
+}
+</code></pre>
+</div>
+<div class="rule-example rule-example--good">
+<div class="rule-example__label">Prefer</div>
+<pre><code class="language-php">&lt;?php
+
+class LegacyItem {
+    public function __construct() {}
+}
+</code></pre>
+</div>
+</div>
+<hr class="rule__separator">
+<table><thead><tr><th style="text-align: left">Option</th><th style="text-align: left">Type</th><th style="text-align: left">Default</th></tr></thead><tbody>
+<tr><td style="text-align: left"><code>enabled</code></td><td style="text-align: left"><code>boolean</code></td><td style="text-align: left"><code>true</code></td></tr>
+<tr><td style="text-align: left"><code>level</code></td><td style="text-align: left"><code>string</code></td><td style="text-align: left"><code>"warning"</code></td></tr>
+</tbody></table>
+</div>
+</details>
 <details class="rule" name="rule" id="no-redundant-variable">
 <summary><code class="rule__code">no-redundant-variable</code><a class="rule__anchor" href="#no-redundant-variable" aria-label="Permalink to no-redundant-variable">¶</a><span class="rule__level rule__level--warning">warning</span></summary>
 <div class="rule__body">
@@ -8182,11 +8709,12 @@ echo 'Hello, world!';
 
   
 
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/theme.js" defer></script>
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/search.js" defer></script>
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/anchors.js" defer></script>
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/versions.js" defer></script>
-  <script src="..&#x2F;..&#x2F;..&#x2F;..&#x2F;..&#x2F;main/_assets/js/highlight.js" defer></script>
+  <script src="../../../../../main/_assets/js/theme.js" defer></script>
+  <script src="../../../../../main/_assets/js/search.js" defer></script>
+  <script src="../../../../../main/_assets/js/anchors.js" defer></script>
+  <script src="../../../../../main/_assets/js/versions.js" defer></script>
+  <script src="../../../../../main/_assets/js/highlight.js" defer></script>
+  
   
   
 </body>
